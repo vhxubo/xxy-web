@@ -41,8 +41,12 @@ export default {
           },
           headers: { token: token }
         }).then(resp => {
-          console.log(resp.data)
-          this.results = resp.data.data
+          const data = resp.data
+          if (data.code !== 200) {
+            alert(data.msg)
+          } else {
+            this.results = data.data
+          }
         })
     }
   }

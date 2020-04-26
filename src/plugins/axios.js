@@ -8,10 +8,7 @@ import axios from 'axios';
 axios.defaults.headers.post['platform'] = 'android';
 axios.defaults.headers.post['app-version'] = '1.0.5';
 axios.defaults.headers.post['Content-Type'] = 'application/json; charset=utf-8';
-axios.defaults.headers.post['Host'] = 'app.51xuexiaoyi.com';
-axios.defaults.headers.post['Connection'] = 'Keep-Alive';
-axios.defaults.headers.post['Accept-Encoding'] = 'gzip';
-axios.defaults.headers.post['User-Agent'] = 'okhttp/3.11.0';
+
 
 let config = {
   // baseURL: process.env.baseURL || process.env.apiUrl || ""
