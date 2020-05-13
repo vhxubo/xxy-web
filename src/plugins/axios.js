@@ -6,7 +6,7 @@ import axios from 'axios';
 // Full config:  https://github.com/axios/axios#request-config
 // axios.defaults.baseURL = process.env.baseURL || process.env.apiUrl || '';
 axios.defaults.headers.post['platform'] = 'android';
-axios.defaults.headers.post['app-version'] = '1.0.5';
+axios.defaults.headers.post['app-version'] = '1.0.6';
 axios.defaults.headers.post['Content-Type'] = 'application/json; charset=utf-8';
 
 
